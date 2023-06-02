@@ -12,10 +12,4 @@ class SplashServices{
 
   }
 
-  void isLogOut(BuildContext context){
-
-    Timer(Duration(seconds: 3),() => Navigator.pushNamed(context, RouteName.LoginView) );
-
-  }
-
 }
